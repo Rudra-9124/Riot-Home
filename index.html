@@ -9,11 +9,10 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
     />
-    <script src="main.js"></script>
   </head>
   <body>
     <div class="main">
-      <nav class="nav">
+      <nav class="nav" id="navbar">
         <div class="riot_logo">
           <svg
             width="125"
@@ -57,11 +56,22 @@
             <a href="#">
               <p>WHAT WE ARE <i class="bx bx-caret-down"></i></p>
             </a>
+            <ul id="submenu">
+              <li><a href="">About Riot</a></li>
+              <li><a href="">Diversity & Inclusion</a></li>
+              <li><a href="">Social Impact</a></li>
+            </ul>
           </li>
           <li>
             <a href="#">
               <p>WORK WITH US <i class="bx bx-caret-down"></i></p>
             </a>
+            <ul class="submenu">
+              <li><a href="">Jobs</a></li>
+              <li><a href="">Benifits</a></li>
+              <li><a href="">Offices</a></li>
+              <li><a href="">Life At Riot</a></li>
+            </ul>
           </li>
           <li>
             <a href="#">
@@ -72,7 +82,7 @@
         <div class="search-bar">
           <i class="bx bx-globe" style="color: #f8f5f5"></i>
           <div>
-            <input type="search" name="" id="" placeholder="SEARCH" />
+            <input type="search" name="" id="search" placeholder="SEARCH" />
             <i class="bx bx-search-alt-2" style="color: #f8f5f5"></i>
           </div>
           <button class="btn" id="signin">SIGN IN</button>
@@ -89,9 +99,9 @@
           <div class="slide-bar" id="slidebar">
             <a href="#" class="close-btn" onclick="closeSlideBar()"><i class='bx bx-x' style='color:#ffffff'  ></i></a>
             <ul>
-              <li>WHAT WE ARE</li>
-              <li>WORK WITH US</li>
-              <li>NEWS</li>
+              <li><a>WHAT WE ARE</a></li>
+              <li><a>WORK WITH US</a></li>
+              <li><a>NEWS</a></li>
             </ul>
           </div>
         </div>
@@ -109,7 +119,9 @@
         <p>Battle within an inky realm brimming with mischievous <br> creatures and game-changing encounters.</p>
       </div>
       <div class="btn">
-        <i class='bx bxs-right-arrow-circle'></i>
+        <div>
+          <i class='bx bxs-right-arrow-circle'></i>
+        </div>
         Watch Now
       </div>
     </section>
@@ -139,7 +151,6 @@
           <div class="div-btn">
             <button class="btn">SEE MORE</button>
           </div>
-
           <div class="news">
             <div class="news-text">
               <div class="n1">
@@ -206,6 +217,9 @@
               <div class="news-img">
                 <img src="img/n3.jpg" alt="" class="img">
               </div>
+            </div>
+            <div class="div-btn-1">
+              <button class="btn">SEE MORE</button>
             </div>
         </div>
       </div>
@@ -332,5 +346,39 @@
         <img src="img/annie.jpg" alt="">
       </div>
     </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="part1">
+        <ul>
+            <li><a href="">PRESS</a></li>
+            <li><a href="">SECURITY</a></li>
+            <li><a href="">LEGAL</a></li>
+            <li><a href="">LEADERSHIP</a></li>
+            <li><a href="">CANDIDATE PRIVACY</a></li>
+            <li><a href="">TERMS OF SERVICE</a></li>
+            <li><a href="">PRIVACY NOTICE</a></li>
+            <li><a href="">PLAYER SUPPORT</a></li>
+            <li><a href="">E-VERIFY</a></li>
+            <li><a href="">ACCESSIBILITY</a></li>
+            <li><a href="" class="sym"><i class='bx bxl-facebook' style='color:#ffffff'  ></i>
+                            <i class='bx bxl-twitter' style='color:#ffffff' ></i>
+                            <i class='bx bxl-linkedin' style='color:#ffffff' ></i>
+                            <i class='bx bxl-youtube' style='color:#ffffff' ></i></a></li>
+        </ul>
+      </div>
+      <div class="part2">
+        <div> </div>
+      </div>
+      <div class="part3"> 
+        <div>
+          Cookie Preferences | © 2024 Riot Games, Inc. All Rights Reserved.
+        </div>
+        <div>
+          To The Surface <i class='bx bxs-up-arrow' style='color:#ffffff' ></i>
+        </div>
+      </div>
+    </footer>
+    <script src="main.js"></script>
   </body>
 </html>

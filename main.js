@@ -17,7 +17,7 @@ document.getElementById("signin1").addEventListener("click", function() {
 window.addEventListener('scroll', function() {
   var navbar = document.getElementById('navbar');
   var search = document.getElementById('search');
-  if (window.scrollY === 0) { 
+  if (window.scrollY == 0) { 
     navbar.style.backgroundColor = 'rgba(255, 255, 255, 0.0)';
     search.style.backgroundColor = 'rgba(255,255,255,0)';
     search.style.border = '2px solid white'
@@ -27,3 +27,10 @@ window.addEventListener('scroll', function() {
     search.style.border = 'none'
   }
 });
+
+document.getElementById("valo").addEventListener("click", function() {
+  window.location.href = "https://namanshah3003.github.io/valorant/"
+})
+document.getElementById("lol").addEventListener("click", function() {
+  window.location.href = "https://mihirpatel2805.github.io/LOL/"
+})

@@ -1,5 +1,6 @@
 function openSlideBar() {
-  document.getElementById('slidebar').style.width = '250px';
+  document.getElementById('slidebar').style.width = '200px';
+  document.getElementById('slidebar').style.overflowY = 'hidden';
 }
 
 function closeSlideBar() {
@@ -7,6 +8,9 @@ function closeSlideBar() {
 }
 
 document.getElementById("signin").addEventListener("click", function() {
+  window.location.href = "SignIn.html";
+});
+document.getElementById("signin1").addEventListener("click", function() {
   window.location.href = "SignIn.html";
 });
 

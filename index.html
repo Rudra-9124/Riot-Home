@@ -3,8 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Riot Games. Developer of League Of Legends, VALORANT.</title>
     <link rel="stylesheet" href="style.css"/>
+    <link rel="icon" type="image/jpeg" href="logo.jpg">
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
@@ -54,24 +55,26 @@
         <div class="navbar">
           <li>
             <a href="#">
-              <p>WHAT WE ARE <i class="bx bx-caret-down"></i></p>
+              <p>WHAT WE ARE <!-- <i class="bx bx-caret-down"></i> --></p>
             </a>
-            <ul id="submenu">
+            <!-- <ul class="submenu">
+              <div class="submenu-color"> </div>
               <li><a href="">About Riot</a></li>
               <li><a href="">Diversity & Inclusion</a></li>
               <li><a href="">Social Impact</a></li>
-            </ul>
+            </ul> -->
           </li>
           <li>
             <a href="#">
-              <p>WORK WITH US <i class="bx bx-caret-down"></i></p>
+              <p>WORK WITH US <!-- <i class="bx bx-caret-down"></i> --></p>
             </a>
-            <ul class="submenu">
+            <!-- <ul class="submenu">
+              <div class="submenu-color"> </div>
               <li><a href="">Jobs</a></li>
               <li><a href="">Benifits</a></li>
               <li><a href="">Offices</a></li>
               <li><a href="">Life At Riot</a></li>
-            </ul>
+            </ul> -->
           </li>
           <li>
             <a href="#">
@@ -98,11 +101,25 @@
           </div>
           <div class="slide-bar" id="slidebar">
             <a href="#" class="close-btn" onclick="closeSlideBar()"><i class='bx bx-x' style='color:#ffffff'  ></i></a>
-            <ul>
-              <li><a>WHAT WE ARE</a></li>
-              <li><a>WORK WITH US</a></li>
-              <li><a>NEWS</a></li>
-            </ul>
+            <div class="navbar">
+              <li>
+                <a href="#">
+                  <p>WHAT WE ARE <!-- <i class="bx bx-caret-down"></i> --></p>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <p>WORK WITH US <!-- <i class="bx bx-caret-down"></i> --></p>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <p>NEWS</p>
+                </a>
+              </li>
+              <input type="search" name="" id="search" placeholder="SEARCH" />
+              <button class="btn" id="signin1">SIGN IN</button>
+            </div>
           </div>
         </div>
       </nav>
@@ -122,7 +139,7 @@
         <div>
           <i class='bx bxs-right-arrow-circle'></i>
         </div>
-        Watch Now
+        Play Now
       </div>
     </section>
 
@@ -234,22 +251,41 @@
         <div class="box">
           <img src="img/lol.png" class="img" alt="">
           <img src="img/lol-logo.png" alt="" class="over">
+          <div class="icons b2">
+            <i class='bx bxl-windows' style='color:#ffffff' ></i>
+            <i class='bx bxl-apple' style='color:#ffffff'  ></i>
+          </div>
         </div>
         <div class="box">
           <img src="img/valo-1.png" alt="" class="img">
           <img src="img/valo.png" alt="" class="over">
-        </div>
+          <div class="icons b1">
+            <i class='bx bxl-windows' style='color:#ffffff' ></i>
+          </div>
+        </div>  
         <div class="box">
           <img src="img/teamfight.png" alt="" class="img">
           <img src="img/tft-logo.png" alt="" class="over">
+          <div class="icons b3">
+            <i class='bx bxl-windows' style='color:#ffffff' ></i>
+            <i class='bx bxl-apple' style='color:#ffffff'  ></i>
+            <i class='bx bx-mobile-alt' style='color:#ffffff' ></i>
+          </div>
         </div>
         <div class="box">
           <img src="img/lol-wr.png" alt="" class="img">
           <img src="img/lol-wr-logo.png" alt="" class="over">
+          <div class="icons b1">
+            <i class='bx bx-mobile-alt' style='color:#ffffff' ></i>
+          </div>
         </div>
         <div class="box cb">
           <img src="img/lor.png" alt="" class="img">
           <img src="img/lor-logo.png" alt="" class="over">
+          <div class="icons b2">
+            <i class='bx bxl-windows' style='color:#ffffff' ></i>
+            <i class='bx bx-mobile-alt' style='color:#ffffff'  ></i>
+          </div>
         </div>
       </div>
     </section>
@@ -297,26 +333,53 @@
         <div class="box">
           <img src="img/bandletale.png" alt="" class="img">
           <img src="img/bandletale-logo.png" alt="" class="over">
+          <div class="icons b2">
+            <i class='bx bxl-windows' style='color:#ffffff' ></i>
+            <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/FFFFFF/xbox.png" alt="xbox"/>
+          </div>
         </div>
         <div class="box">
           <img src="img/mageseeker.jpg" alt="" class="img">
           <img src="img/mageseeker-logo.png" alt="" class="over">
+          <div class="icons b3">
+            <i class='bx bxl-windows' style='color:#ffffff' ></i>
+            <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/FFFFFF/xbox.png" alt="xbox"/>
+            <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/FFFFFF/nintendo-switch-logo.png" alt="nintendo-switch-logo"/>
+          </div>
         </div>
         <div class="box">
           <img src="img/ruined-king.png" alt="" class="img">
           <img src="img/ruined-king-logo.png" alt="" class="over">
+          <div class="icons b3">
+            <i class='bx bxl-windows' style='color:#ffffff' ></i>
+            <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/FFFFFF/xbox.png" alt="xbox"/>
+            <img width="50" height="50" src="https://img.icons8.com/ios/50/FFFFFF/playstation-5.png" alt="playstation-5"/>
+          </div>
         </div>
         <div class="box">
           <img src="img/hextetch-mayhem.jpg" alt="" class="img">
           <img src="img/hextech-mayhem-logo.png" alt="" class="over">
+          <div class="icons b2">
+            <i class='bx bxl-windows' style='color:#ffffff' ></i>
+            <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/FFFFFF/nintendo-switch-logo.png" alt="nintendo-switch-logo"/>
+          </div>
         </div>
         <div class="box">
           <img src="img/convrgence.png" alt="" class="img">
           <img src="img/convrgence-logo.png" alt="" class="over">
+          <div class="icons b2">
+            <i class='bx bxl-windows' style='color:#ffffff' ></i>
+            <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/FFFFFF/xbox.png" alt="xbox"/>
+          </div>
         </div>
         <div class="box">
           <img src="img/song-of-nunu.jpg" alt="" class="img">
           <img src="img/songofnunu-logo.png" alt="" class="over">
+          <div class="icons b3">
+            <i class='bx bxl-windows' style='color:#ffffff' ></i>
+            <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/FFFFFF/xbox.png" alt="xbox"/>
+            <img width="50" height="50" src="https://img.icons8.com/ios/50/FFFFFF/playstation-5.png" alt="playstation-5"/>
+          </div>
         </div>
       </div>
     </section>
@@ -351,6 +414,7 @@
     <footer>
       <div class="part1">
         <ul>
+            <li><a href=""><img src="img/logo.jpg" alt=""></a></li>
             <li><a href="">PRESS</a></li>
             <li><a href="">SECURITY</a></li>
             <li><a href="">LEGAL</a></li>
@@ -361,7 +425,7 @@
             <li><a href="">PLAYER SUPPORT</a></li>
             <li><a href="">E-VERIFY</a></li>
             <li><a href="">ACCESSIBILITY</a></li>
-            <li><a href="" class="sym"><i class='bx bxl-facebook' style='color:#ffffff'  ></i>
+            <li><a href="" class="sep"><i class='bx bxl-facebook' style='color:#ffffff'  ></i>
                             <i class='bx bxl-twitter' style='color:#ffffff' ></i>
                             <i class='bx bxl-linkedin' style='color:#ffffff' ></i>
                             <i class='bx bxl-youtube' style='color:#ffffff' ></i></a></li>
